@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+KNearestNeighbor	cs231n/classifiers/k_nearest_neighbor.py	/^class KNearestNeighbor(object):$/;"	c
+LinearClassifier	cs231n/classifiers/linear_classifier.py	/^class LinearClassifier(object):$/;"	c
+LinearSVM	cs231n/classifiers/linear_classifier.py	/^class LinearSVM(LinearClassifier):$/;"	c
+Softmax	cs231n/classifiers/linear_classifier.py	/^class Softmax(LinearClassifier):$/;"	c
+TwoLayerNet	cs231n/classifiers/neural_net.py	/^class TwoLayerNet(object):$/;"	c
+__init__	cs231n/classifiers/k_nearest_neighbor.py	/^  def __init__(self):$/;"	m	class:KNearestNeighbor
+__init__	cs231n/classifiers/linear_classifier.py	/^  def __init__(self):$/;"	m	class:LinearClassifier
+__init__	cs231n/classifiers/neural_net.py	/^  def __init__(self, input_size, hidden_size, output_size, std=1e-4):$/;"	m	class:TwoLayerNet
+ceil	cs231n/vis_utils.py	/^from math import sqrt, ceil$/;"	i
+color_histogram_hsv	cs231n/features.py	/^def color_histogram_hsv(im, nbin=10, xmin=0, xmax=255, normalized=True):$/;"	f
+compute_distances_no_loops	cs231n/classifiers/k_nearest_neighbor.py	/^  def compute_distances_no_loops(self, X):$/;"	m	class:KNearestNeighbor
+compute_distances_one_loop	cs231n/classifiers/k_nearest_neighbor.py	/^  def compute_distances_one_loop(self, X):$/;"	m	class:KNearestNeighbor
+compute_distances_two_loops	cs231n/classifiers/k_nearest_neighbor.py	/^  def compute_distances_two_loops(self, X):$/;"	m	class:KNearestNeighbor
+eval_numerical_gradient	cs231n/gradient_check.py	/^def eval_numerical_gradient(f, x, verbose=True, h=0.00001):$/;"	f
+eval_numerical_gradient_array	cs231n/gradient_check.py	/^def eval_numerical_gradient_array(f, x, df, h=1e-5):$/;"	f
+eval_numerical_gradient_blobs	cs231n/gradient_check.py	/^def eval_numerical_gradient_blobs(f, inputs, output, h=1e-5):$/;"	f
+eval_numerical_gradient_net	cs231n/gradient_check.py	/^def eval_numerical_gradient_net(net, inputs, output, h=1e-5):$/;"	f
+extract_features	cs231n/features.py	/^def extract_features(imgs, feature_fns, verbose=False):$/;"	f
+forward	cs231n/classifiers/neural_net.py	/^  def forward(self, X):$/;"	m	class:TwoLayerNet
+get_CIFAR10_data	cs231n/data_utils.py	/^def get_CIFAR10_data(num_training=49000, num_validation=1000, num_test=1000,$/;"	f
+grad_check_sparse	cs231n/gradient_check.py	/^def grad_check_sparse(f, x, analytic_grad, num_checks=10, h=1e-5):$/;"	f
+hog_feature	cs231n/features.py	/^def hog_feature(im):$/;"	f
+imread	cs231n/data_utils.py	/^from scipy.misc import imread$/;"	i
+load_CIFAR10	cs231n/data_utils.py	/^def load_CIFAR10(ROOT):$/;"	f
+load_CIFAR_batch	cs231n/data_utils.py	/^def load_CIFAR_batch(filename):$/;"	f
+load_models	cs231n/data_utils.py	/^def load_models(models_dir):$/;"	f
+load_pickle	cs231n/data_utils.py	/^def load_pickle(f):$/;"	f
+load_tiny_imagenet	cs231n/data_utils.py	/^def load_tiny_imagenet(path, dtype=np.float32, subtract_mean=True):$/;"	f
+loss	cs231n/classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	m	class:LinearClassifier
+loss	cs231n/classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	m	class:LinearSVM
+loss	cs231n/classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	m	class:Softmax
+loss	cs231n/classifiers/neural_net.py	/^  def loss(self, X, y=None, reg=0.0):$/;"	m	class:TwoLayerNet
+matplotlib	cs231n/classifiers/neural_net.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	cs231n/features.py	/^import matplotlib$/;"	i
+np	cs231n/classifiers/k_nearest_neighbor.py	/^import numpy as np$/;"	i
+np	cs231n/classifiers/linear_classifier.py	/^import numpy as np$/;"	i
+np	cs231n/classifiers/linear_svm.py	/^import numpy as np$/;"	i
+np	cs231n/classifiers/neural_net.py	/^import numpy as np$/;"	i
+np	cs231n/classifiers/softmax.py	/^import numpy as np$/;"	i
+np	cs231n/data_utils.py	/^import numpy as np$/;"	i
+np	cs231n/features.py	/^import numpy as np$/;"	i
+np	cs231n/gradient_check.py	/^import numpy as np$/;"	i
+np	cs231n/vis_utils.py	/^import numpy as np$/;"	i
+os	cs231n/data_utils.py	/^import os$/;"	i
+pdb	cs231n/classifiers/k_nearest_neighbor.py	/^import pdb$/;"	i
+pdb	cs231n/classifiers/linear_svm.py	/^import pdb$/;"	i
+pdb	cs231n/classifiers/softmax.py	/^import pdb$/;"	i
+pdb	cs231n/data_utils.py	/^import pdb$/;"	i
+pickle	cs231n/data_utils.py	/^from six.moves import cPickle as pickle$/;"	i
+platform	cs231n/data_utils.py	/^import platform$/;"	i
+plt	cs231n/classifiers/neural_net.py	/^import matplotlib.pyplot as plt$/;"	i
+predict	cs231n/classifiers/k_nearest_neighbor.py	/^  def predict(self, X, k=1, num_loops=0):$/;"	m	class:KNearestNeighbor
+predict	cs231n/classifiers/linear_classifier.py	/^  def predict(self, X):$/;"	m	class:LinearClassifier
+predict	cs231n/classifiers/neural_net.py	/^  def predict(self, X):$/;"	m	class:TwoLayerNet
+predict_labels	cs231n/classifiers/k_nearest_neighbor.py	/^  def predict_labels(self, dists, k=1):$/;"	m	class:KNearestNeighbor
+print_function	cs231n/classifiers/linear_classifier.py	/^from __future__ import print_function$/;"	i
+print_function	cs231n/classifiers/neural_net.py	/^from __future__ import print_function$/;"	i
+print_function	cs231n/data_utils.py	/^from __future__ import print_function$/;"	i
+print_function	cs231n/features.py	/^from __future__ import print_function$/;"	i
+print_function	cs231n/gradient_check.py	/^from __future__ import print_function$/;"	i
+randrange	cs231n/gradient_check.py	/^from random import randrange$/;"	i
+rgb2gray	cs231n/features.py	/^def rgb2gray(rgb):$/;"	f
+shuffle	cs231n/classifiers/linear_svm.py	/^from random import shuffle$/;"	i
+shuffle	cs231n/classifiers/softmax.py	/^from random import shuffle$/;"	i
+softmax_loss_naive	cs231n/classifiers/softmax.py	/^def softmax_loss_naive(W, X, y,reg):$/;"	f
+softmax_loss_vectorized	cs231n/classifiers/softmax.py	/^def softmax_loss_vectorized(W, X, y, reg):$/;"	f
+sqrt	cs231n/vis_utils.py	/^from math import sqrt, ceil$/;"	i
+svm_loss_naive	cs231n/classifiers/linear_svm.py	/^def svm_loss_naive(W, X, y, reg):$/;"	f
+svm_loss_vectorized	cs231n/classifiers/linear_svm.py	/^def svm_loss_vectorized(W, X, y, reg):$/;"	f
+train	cs231n/classifiers/k_nearest_neighbor.py	/^  def train(self, X, y):$/;"	m	class:KNearestNeighbor
+train	cs231n/classifiers/linear_classifier.py	/^  def train(self, X, y, learning_rate=1e-3, reg=1e-5, num_iters=100,$/;"	m	class:LinearClassifier
+train	cs231n/classifiers/neural_net.py	/^  def train(self, X, y, X_val, y_val,$/;"	m	class:TwoLayerNet
+uniform_filter	cs231n/features.py	/^from scipy.ndimage import uniform_filter$/;"	i
+vis_grid	cs231n/vis_utils.py	/^def vis_grid(Xs):$/;"	f
+vis_nn	cs231n/vis_utils.py	/^def vis_nn(rows):$/;"	f
+visualize_grid	cs231n/vis_utils.py	/^def visualize_grid(Xs, ubound=255.0, padding=1):$/;"	f
